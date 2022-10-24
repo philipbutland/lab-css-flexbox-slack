@@ -8,3 +8,313 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+#main-body{
+    width: 400px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slack-header{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#teamwork{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-wrap: wrap;  
+}
+
+#main-screen{
+    background-color: #540B51;
+    border-radius: 50px;
+    border-color: gray;
+}
+
+#slack-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#companies{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;  
+    background-color: #F3EAE2;
+    margin: 0 50px;
+    padding-bottom: 50px;
+}
+
+
+#companies-text{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 20px 0;
+}
+
+.company{
+    width: 20%;
+ }
+
+ 
+#company-section{
+    background-color: #F3EAE2;
+}
+
+#company-section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+#any-section{
+    background-color: #F3EAE2;
+    padding-bottom: 20px;
+}
+
+#any-section h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 10px 10px 10px;
+}
+
+#any-section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+#link{
+    text-decoration:none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2E71A6;
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto 10px 50px 10px;
+}
+
+#rely{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-wrap: wrap;  
+    font-size: 30px;
+    padding-top: 50px;
+    margin: auto 50px auto 50px;
+}
+
+#slack-info{
+    background-color: white;
+    padding-bottom:20px;
+}
+
+#digital-hq{
+    background-color: #540B51;  
+    border-radius: 0 0 100px 100px;
+    padding: 30px 10px 50px 10px;
+}
+
+#digital-hq h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+ #percent{
+    font-size: 50px;
+    color: #540B51;
+    font-weight: bold;
+ }
+
+ #percent-text{
+    font-weight: bold;
+    margin: auto 120px;
+ }
+
+ #small-print{
+    margin: 0 10px 0 10px;
+ }
+
+#slack-info p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.connect-picture{
+    width: 400px;
+}
+
+.any-picture{
+    margin-top: 40px;
+    width: 400px;
+}
+
+.slack-logo{
+    height: 20px;
+    margin: 0 10px;
+}
+
+.search-logo{
+   background-color: transparent;
+}
+
+.button-logo{
+    background-color: transparent;
+ }
+
+ .google-logo{
+    width: 20px;
+    background-color: white;
+} 
+
+.product-logo{
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+#buttons{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0 20px;
+}
+
+.mail-button{
+    color:black;
+    width: 350px;
+    height: 50px;
+    margin: 0 25px 20px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .google-button{
+    background-color: blue;
+    color: white;
+    width: 350px;
+    height: 50px;
+    margin: 0 25px 20px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  
+.enterprise-button{
+    background-color: #540B51;
+    color: white;
+    width: 350px;
+    height: 50px;
+    margin: 0 25px 20px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+.sales-button{
+    background-color: white;
+    color:black;
+    width: 350px;
+    height: 50px;
+    margin: 0 25px 20px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .free-button{
+    background-color: #540B51;
+    color: white;
+    width: 350px;
+    height: 50px;
+    margin: 0 25px 20px 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-color: white;
+  }
+
+  #footer-text{
+    background-color: white;
+    margin-top: -50px;
+    padding-top: 50px;
+  }
+
+  .footer-container{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
+  .social-media-icons{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+
+  .footer-container li{
+    margin-bottom: 20px;
+  }
+    
+ .footer-box{
+    width: 100px;
+    margin: 10px;
+    padding-left:0;
+    justify-content: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list-header{
+    font-weight: bold;
+}
+
+.final-list{
+    font-weight: bold;
+}
+
+.final-list li{
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+  
+.small-logo{
+    width: 15%;
+    margin-left: 20px;
+ }
+
+ .copyright-text{
+    margin: 0 20px;
+ }
+
+  body{
+    height:100%;
+}
